@@ -1,0 +1,22 @@
+def calcu(a,b):
+    mean = (a+b)/(a*b)
+    print(mean)
+def add(c,d):
+    addi = (c+d)
+    print(addi)
+def greater(a,b):
+    if(a>b):
+        print("first nubmer is greater than second")
+    else:
+        print("second number is greater than first number")
+a=5
+b=2
+calcu(a,b)
+add(a,b)
+greater(a,b)
+
+c=4
+d = 5
+calcu(c,d)
+add(c,d)
+greater(c,d)
